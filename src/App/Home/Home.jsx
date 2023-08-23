@@ -83,7 +83,6 @@ const Home = () => {
         scrollTrigger:{
             trigger:'.footer-text',
             start:'top 80%',
-            markers:true
         },
         opacity:0,
         height:'0px',
