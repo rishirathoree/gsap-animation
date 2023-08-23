@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{background-color: #101010;font-family: 'Roslindale';}
+
+@font-face {
+  font-family: 'Roslindale';
+  src: url('../src/assets//fonts/Roslindale-DeckNarrowBold.eot');
+  src: url('../src/assets/fonts/Roslindale-DeckNarrowBold.eot') format('embedded-opentype'),
+      url('../src/assets/fonts/Roslindale-DeckNarrowBold.woff') format('woff'),
+      url('../src/assets/fonts/Roslindale-DeckNarrowBold.ttf') format('truetype'),
+      url('../src/assets/fonts/Roslindale-DeckNarrowBold.svg') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+.bg-parallex{
+  background-image: url('../src/assets/images/street.jpeg');
+}
